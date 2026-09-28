@@ -1,0 +1,46 @@
+# External/local source trees and immutable runtime baseline
+/sources/
+/runtime/original/
+/runtime/work/
+
+# Generated build/test output
+/build/
+/out/
+/reports/
+*.log
+*.tmp
+*.bak
+
+# Python/cache/editor noise
+__pycache__/
+*.py[cod]
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Crash dumps
+core
+core.*
+*.core
+
+# Local credentials / machine-specific secrets (never publish)
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+*.kdbx
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+.netrc
+.npmrc
+.pypirc
+credentials.json
+secrets.json

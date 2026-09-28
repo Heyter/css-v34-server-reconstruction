@@ -1,0 +1,17 @@
+kind	name	value	proof
+interface	ServerGameDLL006	factory	strings+CreateInterface
+interface	ServerGameClients003	factory	strings+CreateInterface
+interface	ServerGameClients004	factory	strings+CreateInterface
+interface	ServerGameEnts001	factory	strings+CreateInterface
+interface	PlayerInfoManager001	factory	strings+CreateInterface
+interface	PlayerInfoManager002	factory	strings+CreateInterface
+interface	GameMovement001	factory	strings+CreateInterface
+vtable	IServerGameDLL	140	readelf -Ws original
+vtable	IServerGameClients	72	readelf -Ws original
+vtable	IServerGameEnts	40	readelf -Ws original
+vtable	IPlayerInfo	104	readelf -Ws original
+vtable	IPlayerInfoManager	16	readelf -Ws original
+vtable	IGameMovement	32	readelf -Ws original
+symbol	AliasToWeaponID(char const*)	0x0095bda0	nm -C original
+symbol	WeaponIDToAlias(int)	0x0095be60	nm -C original
+symbol	CCSGameRules::RestartRound()	0x0093bb00	nm -C original

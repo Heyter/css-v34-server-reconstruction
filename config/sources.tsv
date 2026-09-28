@@ -1,0 +1,14 @@
+group	name	url	branch	role	provenance
+main	sourceengine2007-main	https://github.com/dougrattman/SourceEngine2007.git	master	MAIN full-source donor: engine,dedicated,CSS,VPhysics,IVP	sensitive
+refs	sdk-2006-ep1	https://github.com/Source-SDK-Archives/source-sdk-2006-ep1.git	master	Primary Source 2006 / EP1 API-era reference	sdk
+refs	sdk-2006-legacy	https://github.com/Source-SDK-Base-Legacy-Project/source-sdk-2006.git	master	Secondary Source 2006 reference	sdk
+refs	source-2007-uvbs	https://github.com/uvbs/source-2007.git	master	Source 2007 mirror / diff reference	sensitive
+refs	source-2007-metoo	https://github.com/metoo10987/SourceEngine2007.git	master	Source 2007 mirror / historical diff	sensitive
+refs	niller-source-engine	https://github.com/nillerusr/source-engine.git	master	Modern Linux/Waf/compiler-fix donor	sensitive
+refs	source-community-edition	https://github.com/SourceEngine-CommunityEdition/source.git	main	Late Source / modern fix reference	sensitive
+refs	quiver-engine	https://github.com/quiverteam/Engine.git	master	Source 2007 modernization; not v34 physics truth	sensitive
+refs	css-community	https://github.com/DeadZoneLuna/css-community.git	master	CSS-specific semantic reference only	sensitive
+refs	sdk-orangebox	https://github.com/Source-SDK-Archives/source-sdk-orangebox.git	master	2006->OrangeBox diff / fixes	sdk
+refs	sdk-2004	https://github.com/Source-SDK-Archives/source-sdk-2004.git	master	Pre-2006 historical reference	sdk
+refs	sdk-alien-swarm	https://github.com/Source-SDK-Archives/source-sdk-alien-swarm.git	main	Later SDK fix/reference	sdk
+refs	sdk-2007-legacy	https://github.com/Source-SDK-Base-Legacy-Project/source-sdk-2007.git	master	Orange Box era SDK comparison	sdk
